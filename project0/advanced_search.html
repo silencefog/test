@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="adv_style.css">
+    </head>
+    <body>
+        <div id="top">
+            <a href="index.html" class="btn btn-light">Google Search</a>
+        </div>
+        <div id="title">
+            Advanced Search
+        </div>
+        <div id="tops">
+            <h6 class="fst">Find pages with...</h6>
+            <div class="scnd"></div>
+            <h6 class="thrd">To do this in the search box.</h6>
+        </div>
+        <form action="https://google.com/search">
+            <div class="rows">
+                <p class="fst">all these words:</p>
+                <input class="scnd" type="text" name="as_q">
+                <p class="thrd">Type the important words: tri-colour rat terrier</p>
+            </div>
+            <div class="rows">
+                <p class="fst">this exact word or phrase:</p>
+                <input class="scnd" type="text" name="as_epq">
+                <p class="thrd">Put exact words in quotes: "rat terrier"</p>
+            </div>
+            <div class="rows">
+                <p class="fst">any of these words:</p>
+                <input class="scnd" type="text" name="as_oq">
+                <p class="thrd">Type OR between all the words you want: miniature OR standard</p>
+            </div>
+            <div class="rows">
+                <p class="fst">one of these words:</p>
+                <input class="scnd" type="text" name="as_eq">
+                <p class="thrd">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+            </div>
+            <div class="rows">
+            <div class="fst"></div>
+                <div class="scnd"><input id="btn_search" class="btn btn-primary" type="submit" value="Advanced Search"></div>
+            </div>
+        </form>
+    </body>
+</html>
